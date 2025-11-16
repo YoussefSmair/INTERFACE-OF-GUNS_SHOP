@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+padding: 0;
+margin: 0;
+}
+
+a{
+color: white;
+text-decoration: none;
+
+
+
+}
+
+body{
+    background-image: linear-gradient(to right ,#4f4f4f , #000000);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+    }
+
+
+.container{
+    background-image: linear-gradient(to right,#dddddd13 30%, #00000088),url(AR-15.jpg);
+    background-position: center;
+    width: 75%;
+    height: 1000px;
+}
+
+.container:hover{
+    background-image: linear-gradient(to right,#dddddd13 30%, transparent),url(AR-15.jpg);
+    width: 75%;
+    height:1000px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    }
+    
+    .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+
+
+        }
+
+
+        ul{
+            width: 60%;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            
+            
+            
+            
+            }
+
+
+
+
+            ul a{
+                border-bottom: 2px solid transparent;
+            }
+
+
+            ul a:hover{
+                border-bottom-color: white;
+                
+                
+                }
+
+
+.content{
+color: white;
+width: 50%;
+margin-top: 50px;
+padding: 30px;
+
+
+
+}
+
+.content h2{
+    font-size: 110px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(176, 176, 176);
+    text-shadow:10px 10px 1px black;
+    }
+
+
+
+    .content p{
+        letter-spacing: 2px;
+        width: 450px;
+        padding: 20px 0;
+        
+        
+        
+        
+        
+        }
+        
+        
+        .content button{
+        font-size: 30px;
+        padding: 6px 10px;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        
+        
+        
+        
+        
+        }
+
+
+        .content button:hover{
+
+            background-color: transparent;
+            border-color: white;
+            color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
